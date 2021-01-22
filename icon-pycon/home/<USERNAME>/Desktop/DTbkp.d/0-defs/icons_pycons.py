@@ -24,7 +24,7 @@ import os, sys, subprocess, pickle
 from datetime import date
 
 home = os.getenv("HOME")                  # home/<user> dir
-desktop = home + '/<Desktop>/'            # Provide localized DT name
+desktop = home + '/<Desktop>/'            # Provide your localized DT name here
 pname = desktop + '<dir>/Icons_ervator.p' # Pickle file (dir name to suit)
 td = date.today().isoformat()             # YYYY-MM-DD format
 dpname = pname + '-' + td                 # Pickle file with date suffix
