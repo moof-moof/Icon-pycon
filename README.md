@@ -46,7 +46,7 @@ By [moof-moof](https://github.com/moof-moof?tab=repositories) 2021-01-20.
     
 3)  Issue `python3 RESTORE_desktop_layout.py`.
     
-4)  Note terminal output, which have ideally present none or very few `returncode=1` messages).
+4)  Note terminal output (which should ideally present none or very few `returncode=1` messages).
     
 5)  Update filemanager by clicking the desktop while hitting **F5**.
     
