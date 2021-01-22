@@ -23,17 +23,17 @@ By moof-moof 2021-01-20 (https://github.com/moof-moof?tab=repositories).
 import os, sys, subprocess, pickle
 from datetime import date
 
-# home = os.getenv("HOME")                  # home/<user> dir
-# desktop = home + '/<Desktop>/'            # Provide localized DT name
-# pname = desktop + '<dir>/Icons_ervator.p' # Pickle file (dir name to suit)
-# td = date.today().isoformat()             # YYYY-MM-DD format
-# dpname = pname + '-' + td                 # Pickle file with date suffix
+home = os.getenv("HOME")                  # home/<user> dir
+desktop = home + '/<Desktop>/'            # Provide localized DT name
+pname = desktop + '<dir>/Icons_ervator.p' # Pickle file (dir name to suit)
+td = date.today().isoformat()             # YYYY-MM-DD format
+dpname = pname + '-' + td                 # Pickle file with date suffix
 
-home = os.getenv("HOME")                    ## /home/xneb
-desktop = home + '/Skrivbord/'              ## /home/xneb/Skrivbord/
-pname = desktop + 'DTbkp.d/Icons_ervator.p' ## /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.p
-td = date.today().isoformat()               ## YYYY-MM-DD
-dpname = pname + '-' + td                   ## /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.db-YYYY-MM-DD
+# home = os.getenv("HOME")                    # /home/xneb
+# desktop = home + '/Skrivbord/'              # /home/xneb/Skrivbord/
+# pname = desktop + 'DTbkp.d/Icons_ervator.p' # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.p
+# td = date.today().isoformat()               # YYYY-MM-DD
+# dpname = pname + '-' + td                   # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.db-YYYY-MM-DD
 
 gio_in_cmd = "gio info $HOME/Skrivbord/* | egrep 'standard::name|caja-icon-position:'"
 
