@@ -1,6 +1,4 @@
     
-    
-`README for icons_pycons.py `
 
 &nbsp;
 
