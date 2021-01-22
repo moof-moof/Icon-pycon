@@ -8,7 +8,7 @@ A pair of function definitions for saving and restoring the preferred spatial po
 
 Hopefully useful in case one's cherished handcrafted desktop layout has been 
 accidentally deleted, e.g. by clicking the inexplicable contextual menu 
-option "Organize desktop by name", which naturally can't be undone...
+option "Organize Desktop by Name", which naturally can't be undone...
 
 The names of icons' corresponding files must have *no leading or trailing spaces*.
 
