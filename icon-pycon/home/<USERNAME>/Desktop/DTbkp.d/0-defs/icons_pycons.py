@@ -33,7 +33,7 @@ dpname = pname + '-' + td                 # Pickle file with date suffix
 # desktop = home + '/Skrivbord/'              # /home/xneb/Skrivbord/
 # pname = desktop + 'DTbkp.d/Icons_ervator.p' # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.p
 # td = date.today().isoformat()               # YYYY-MM-DD
-# dpname = pname + '-' + td                   # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.db-YYYY-MM-DD
+# dpname = pname + '-' + td                   # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.p-YYYY-MM-DD
 
 gio_in_cmd = "gio info $HOME/Skrivbord/* | egrep 'standard::name|caja-icon-position:'"
 
