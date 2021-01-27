@@ -29,6 +29,7 @@ pname = desktop + '<dir>/Icons_ervator.p' # Pickle file (dir name to suit)
 td = date.today().isoformat()             # YYYY-MM-DD format
 dpname = pname + '-' + td                 # Pickle file with date suffix
 
+#   EXAMPLE VALUES:
 # home = os.getenv("HOME")                    # /home/xneb
 # desktop = home + '/Skrivbord/'              # /home/xneb/Skrivbord/
 # pname = desktop + 'DTbkp.d/Icons_ervator.p' # /home/xneb/Skrivbord/DTbkp.d/Icons_ervator.p
